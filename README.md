@@ -6,7 +6,7 @@ This short course is for my firends (coworkers) who would like to learn Python.
 
 ## Your Setup
 - Use newest python3 from https://www.python.org/
-- Use PyCharm as your IDE https://www.jetbrains.com/pycharm/
+- Use PyCharm Community as your IDE https://www.jetbrains.com/pycharm/
 - Use git for version control https://git-scm.com/
 - If you want use SourceTree as git GUI https://www.sourcetreeapp.com/
 
