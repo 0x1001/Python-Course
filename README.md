@@ -11,7 +11,8 @@ This short course is for my firends (coworkers) who would like to learn Python.
 - If you want use SourceTree as git GUI https://www.sourcetreeapp.com/
 
 ## Your Commit
-- Clone this repository
+- Fork this repository
+- Clone your fork to local machine
 - Create new folder with your name in Solutions
 - For each solution add new folder in your folder 
 - Once your solution is ready send me pull request and we can review it togheter
