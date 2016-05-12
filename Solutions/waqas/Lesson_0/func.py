@@ -1,4 +1,4 @@
-#all code that is at indentation level 0 gets executed no matter if __name__ == "__main__" condition applies.
+#all code that is at indentation level 0 gets executed no matter if __name__ == "__main__" condition applied.
 
 def func():
     print("5. It's func()")
@@ -14,5 +14,5 @@ else:
 
 
 # To test the module, this part of the code will not be executed if the module is imported by other modules
-if __name__ == "__name__":
+if __name__ == "__main__":
     func()
