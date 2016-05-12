@@ -32,7 +32,7 @@ https://docs.python.org/2/library/functions.html#dir
 
 Allows to display available attributes for given object.
 This is useful when you try to figure out possible methods and attributes of an object of interest.
-In python everything is na object and has some attributes and methods!
+In python everything is an object and has some attributes and methods!
 
 In your code try this:
     - print(dir(your_function_name))
