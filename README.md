@@ -18,8 +18,8 @@ This short course is for my friends (coworkers) who would like to learn Python.
 - Create new folder with your name in Solutions
 - For each solution add new folder in your folder 
 - Once your solution is ready, commit and push it.
-- Create a pull request with your changes for this repository
-- We can review your changes together
+- Create a pull request with your changes
+- I will review your changes
 
 ## Knowledge
 - Python Documentation https://docs.python.org/
