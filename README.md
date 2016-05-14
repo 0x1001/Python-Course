@@ -13,12 +13,13 @@ This short course is for my friends (coworkers) who would like to learn Python.
     - It requires registration but it is for free.
 
 ## Your Commit
-- Ask me for a contributor access :)
-- Clone this repository
+- Fork this repository
+- Clone your forked repository to your local computer
 - Create new folder with your name in Solutions
 - For each solution add new folder in your folder 
 - Once your solution is ready, commit and push it.
-- We can review it together
+- Create a pull request with your changes for this repository
+- We can review your changes together
 
 ## Knowledge
 - Python Documentation https://docs.python.org/
