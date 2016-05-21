@@ -22,18 +22,18 @@ This function should return list of elements of following type:
 
 class LogEntry:
     def __init__(self):
-        log_name = None
-        source = None
-        date = None
-        event_id = None
-        task = None
-        level = None
-        opcode = None
-        keyword = None
-        user = None
-        user_name = None
-        computer = None
-        description = None
+        self.log_name = None
+        self.source = None
+        self.date = None
+        self.event_id = None
+        self.task = None
+        self.level = None
+        self.opcode = None
+        self.keyword = None
+        self.user = None
+        self.user_name = None
+        self.computer = None
+        self.description = None
 
 List should be ordered same as entries in log file.
 "date" attribute should be of datetime type:
