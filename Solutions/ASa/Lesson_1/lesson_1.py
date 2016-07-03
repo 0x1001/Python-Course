@@ -6,7 +6,7 @@ import os
 
 def main():
     """
-    Prints Hello World
+    Prints Hello World + some docstring
     """
     print ("Hello World")
 
