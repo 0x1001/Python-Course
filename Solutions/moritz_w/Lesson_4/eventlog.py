@@ -47,7 +47,7 @@ def parser(content):
         else:
             if ': ' in line:
                 data = line.split(': ')[1]
-                data = data[0:len(data) - 1]
+                data = data[0:-1]
 
             if "N/A" in line:
                 pass
