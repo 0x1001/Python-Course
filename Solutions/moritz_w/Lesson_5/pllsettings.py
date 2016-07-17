@@ -51,5 +51,5 @@ def writer(pll_settings):
     return formatted_output
 
 
-if __name__ is '__main__':
+if __name__ == '__main__':
     main()
