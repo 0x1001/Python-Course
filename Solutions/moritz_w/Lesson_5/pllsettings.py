@@ -10,7 +10,7 @@ class PLLSetting:
 
 
 def main():
-    unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().discover("."))
+    unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().discover("../../../Course/Lesson_5"))
 
 
 def parser(log_contents):
@@ -42,11 +42,10 @@ def writer(pll_settings):
     formatted_output = []
 
     for item in pll_settings:
-        line = "Index = {0}, {1:.3f}MHz,".format(item.index, item.frequency)
-        settings = [''.join(' 0x{:02x}'.format(number)) for number in item.settings]
+        line = "Index = {0}, {1:.3f}MHz, ".format(item.index, item.frequency)
+        settings = ' '.join(['0x{:02x}'.format(number) for number in item.settings])
+        line += settings
 
-        for setting in settings:
-            line += setting
         formatted_output.append(line)
 
     return formatted_output

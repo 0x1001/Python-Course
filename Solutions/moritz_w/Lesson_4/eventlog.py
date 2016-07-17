@@ -33,8 +33,7 @@ def parser(content):
     """
     ret = []
     current_log_entry = None
-    for i in range(len(content)):
-        line = content[i]
+    for i, line in enumerate(content):
 
         if "Event[" in line:
             # new event

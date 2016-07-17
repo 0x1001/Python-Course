@@ -2,27 +2,25 @@ import unittest
 
 
 def insertion_sort(data):
-    sorted_data = [i for i in data]
+    sorted_data = data[:]
+
     for i in range(1, len(sorted_data)):
-        num = sorted_data[i]
-        j = i
-        while j > 0 and sorted_data[j - 1] > num:
-            sorted_data[j] = sorted_data[j - 1]
-            j -= 1
-        sorted_data[j] = num
+        while i > 0 and sorted_data[i - 1] > sorted_data[i]:
+            sorted_data[i], sorted_data[i - 1] = sorted_data[i - 1], sorted_data[i]
+            i -= 1
+
     return sorted_data
 
 
 def merge_sort(data):
     if len(data) == 1:
-        return data
+        return data[:]
     elif len(data) == 0:
         return []
 
-    new_data = [i for i in data]
-    half_index = int(len(new_data) / 2)
-    left_part = new_data[0:half_index]
-    right_part = new_data[half_index:len(new_data)]
+    half_index = int(len(data) / 2)
+    left_part = data[:half_index]
+    right_part = data[half_index:]
 
     sorted_data = []
 
@@ -37,11 +35,8 @@ def merge_sort(data):
         else:
             sorted_data.append(right_sorted.pop(0))
 
-    while len(left_sorted) != 0:
-            sorted_data.append(left_sorted.pop(0))
-
-    while len(right_sorted) != 0:
-            sorted_data.append(right_sorted.pop(0))
+    sorted_data.extend(left_sorted)
+    sorted_data.extend(right_sorted)
 
     return sorted_data
 
