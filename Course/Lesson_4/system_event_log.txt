@@ -311,7 +311,7 @@ Event[20]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[21]:
   Log Name: System
@@ -326,7 +326,7 @@ Event[21]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[22]:
   Log Name: System
@@ -506,7 +506,7 @@ Event[33]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[34]:
   Log Name: System
@@ -536,7 +536,7 @@ Event[35]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[36]:
   Log Name: System
@@ -3334,7 +3334,7 @@ Event[218]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[219]:
   Log Name: System
@@ -3349,7 +3349,7 @@ Event[219]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[220]:
   Log Name: System
@@ -5326,7 +5326,7 @@ Event[348]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[349]:
   Log Name: System
@@ -5341,7 +5341,7 @@ Event[349]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[350]:
   Log Name: System
@@ -5746,7 +5746,7 @@ Event[376]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[377]:
   Log Name: System
@@ -5761,7 +5761,7 @@ Event[377]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[378]:
   Log Name: System
@@ -8694,7 +8694,7 @@ Event[569]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[570]:
   Log Name: System
@@ -8709,7 +8709,7 @@ Event[570]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[571]:
   Log Name: System
@@ -9024,7 +9024,7 @@ Event[591]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[592]:
   Log Name: System
@@ -9039,7 +9039,7 @@ Event[592]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[593]:
   Log Name: System
@@ -9264,7 +9264,7 @@ Event[607]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[608]:
   Log Name: System
@@ -9279,7 +9279,7 @@ Event[608]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[609]:
   Log Name: System
@@ -12377,7 +12377,7 @@ Event[811]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[812]:
   Log Name: System
@@ -12392,7 +12392,7 @@ Event[812]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[813]:
   Log Name: System
@@ -12467,7 +12467,7 @@ Event[817]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[818]:
   Log Name: System
@@ -12482,7 +12482,7 @@ Event[818]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[819]:
   Log Name: System
@@ -15025,7 +15025,7 @@ Event[984]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdatem) service entered the stopped state.
+The Service Google Update (gupdatem) service entered the stopped state.
 
 Event[985]:
   Log Name: System
@@ -15040,7 +15040,7 @@ Event[985]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdatem) service entered the running state.
+The Service Google Update (gupdatem) service entered the running state.
 
 Event[986]:
   Log Name: System
@@ -15055,7 +15055,7 @@ Event[986]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[987]:
   Log Name: System
@@ -15070,7 +15070,7 @@ Event[987]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[988]:
   Log Name: System
@@ -15325,7 +15325,7 @@ Event[1004]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[1005]:
   Log Name: System
@@ -15370,7 +15370,7 @@ Event[1007]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[1008]:
   Log Name: System
@@ -15761,7 +15761,7 @@ Event[1033]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[1034]:
   Log Name: System
@@ -15776,7 +15776,7 @@ Event[1034]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[1035]:
   Log Name: System
@@ -18484,7 +18484,7 @@ Event[1211]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[1212]:
   Log Name: System
@@ -18499,7 +18499,7 @@ Event[1212]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[1213]:
   Log Name: System
@@ -18769,7 +18769,7 @@ Event[1230]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[1231]:
   Log Name: System
@@ -18784,7 +18784,7 @@ Event[1231]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[1232]:
   Log Name: System
@@ -21627,7 +21627,7 @@ Event[1417]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the stopped state.
+The Service Google Update (gupdate) service entered the stopped state.
 
 Event[1418]:
   Log Name: System
@@ -21642,7 +21642,7 @@ Event[1418]:
   User Name: N/A
   Computer: Kot
   Description: 
-The Us³uga Google Update (gupdate) service entered the running state.
+The Service Google Update (gupdate) service entered the running state.
 
 Event[1419]:
   Log Name: System
@@ -21718,7 +21718,7 @@ Event[1423]:
   User Name: NT AUTHORITY\SYSTEM
   Computer: Kot
   Description: 
-The start type of the Us³uga Google Update (gupdatem) service was changed from disabled to demand start.
+The start type of the Service Google Update (gupdatem) service was changed from disabled to demand start.
 
 Event[1424]:
   Log Name: System
@@ -21733,7 +21733,7 @@ Event[1424]:
   User Name: NT AUTHORITY\SYSTEM
   Computer: Kot
   Description: 
-The start type of the Us³uga Google Update (gupdate) service was changed from disabled to auto start.
+The start type of the Service Google Update (gupdate) service was changed from disabled to auto start.
 
 Event[1425]:
   Log Name: System
