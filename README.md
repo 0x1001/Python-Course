@@ -1,4 +1,4 @@
-# Python-Course
+# Python-Course [![Build Status](https://travis-ci.org/0x1001/Python-Course.svg?branch=master)](https://travis-ci.org/0x1001/Python-Course)
 
 Python Course for friends.
 There are plenty Python courses online, I'm not going to compete with them.
