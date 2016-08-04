@@ -21,8 +21,8 @@ This short course is for my friends (coworkers) who would like to learn Python.
 - Create a pull request with your changes. Here is how https://help.github.com/articles/creating-a-pull-request/ or https://help.github.com/articles/using-pull-requests/
 - I will review your changes and give you my comments
 - To keep your fork repository up to date you can use this http://www.hpique.com/2013/09/updating-a-fork-directly-from-github/ or set upstream on your local computer:
-git remote add upstream https://github.com/0x1001/Python-Examples.git
-git pull upstream master
+    - git remote add upstream https://github.com/0x1001/Python-Examples.git
+    - git pull upstream master
 
 ## Knowledge
 - Python Documentation https://docs.python.org/
