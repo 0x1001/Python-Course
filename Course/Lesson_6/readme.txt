@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
 ------------------------------------------------------------------------------------------------------------------------
 Hint 1:
-In python you can swap to variables by doing:
+In python you can swap two variables by doing:
 a = 1
 b = 5
 a, b = b, a
