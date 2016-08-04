@@ -13,14 +13,16 @@ This short course is for my friends (coworkers) who would like to learn Python.
     - It requires registration but it is for free.
 
 ## Your Commit
-- Fork this repository https://help.github.com/articles/fork-a-repo/
-- Clone your forked repository to your local computer https://help.github.com/articles/cloning-a-repository/
+- Fork Python-Course repository. Here is how https://help.github.com/articles/fork-a-repo/
+- Clone your forked repository to your local computer. Here is how https://help.github.com/articles/cloning-a-repository/
 - Create new folder with your name in Solutions 
 - For each solution add new folder in your folder 
-- Once your solution is ready, commit and push it https://help.github.com/articles/pushing-to-a-remote/
-- Create a pull request with your changes https://help.github.com/articles/creating-a-pull-request/ or https://help.github.com/articles/using-pull-requests/
+- Once your solution is ready, commit and push it. Here is how https://help.github.com/articles/pushing-to-a-remote/
+- Create a pull request with your changes. Here is how https://help.github.com/articles/creating-a-pull-request/ or https://help.github.com/articles/using-pull-requests/
 - I will review your changes and give you my comments
-- To keep your fork repository up to date you can use this http://www.hpique.com/2013/09/updating-a-fork-directly-from-github/
+- To keep your fork repository up to date you can use this http://www.hpique.com/2013/09/updating-a-fork-directly-from-github/ or set upstream on your local computer:
+git remote add upstream https://github.com/0x1001/Python-Examples.git
+git pull upstream master
 
 ## Knowledge
 - Python Documentation https://docs.python.org/
