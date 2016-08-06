@@ -1,9 +1,26 @@
-Lesson 6 - Sorting
+Lesson 6 - List - Sorting
 ------------------------------------------------------------------------------------------------------------------------
 
 In this lesson we will play with python lists:
 http://effbot.org/zone/python-list.htm
 https://docs.python.org/3.5/tutorial/datastructures.html
+
+Short summary:
+list_variable = []                    # Creates an empty list
+list_variable = list()                # Creates an empty list
+list_variable = ["hello"] + ["world"] # Creates new list that is a sum of two other lists
+list_variable = ["hello"] * 10        # Creates new list that contains 10 items with value "hello"
+new_list = list_variable[:]           # Creates a shallow copy of the list (What is shallow copy: https://docs.python.org/2/library/copy.html)
+new_list = list_variable[1:5]         # Creates a slice of the list from item 1 to item 5 excluded.
+value = list_variable[-1]             # Retrieves last item from the list
+list_variable.append("hello")         # Adds new item to the list
+value = list_variable[0]              # Retrieves item 0 from the list
+list_variable.pop(0)                  # Removes item 0 from the list
+list_variable.sort()                  # Sorts in place the list
+list_variable.reverse()               # Reverses the order of the list, in place
+new_list = list_variable[::-1]        # Reverses the order of the list, creates new list
+list_variable.extend(["world"])       # Extends the list with items from another list
+...
 
 I want you to implement two sorting algorithms for integers.
 Python offers built in function sorted().

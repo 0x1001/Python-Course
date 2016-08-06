@@ -1,4 +1,4 @@
-Lesson 4 - Windows Event log parser
+Lesson 4 - String - Windows Event log parser
 
 In this lesson I want you to get familiar with python string type:
 https://docs.python.org/3.5/library/string.html
@@ -6,6 +6,19 @@ https://docs.python.org/3.5/library/stdtypes.html#textseq
 
 Python string is immutable which means once string is created cannot be changed.
 However it offers huge amount of methods that allow to do many things with strings: split, join, slice, search, strip ...
+
+Short summary:
+string_variable = ""                                 # Creates empty string
+string_variable = str()                              # Creates empty string
+string_variable += "Hello world"                     # Concatenates string_variable with "Hello world"  and assigns it to string_variable
+list_of_strings = string_variable.split()            # Splits string into list of strings using separator.
+new_string = string_variable.join(["Hello", "world"] # Joins list of strings into one string
+string_variable.endswith("world")                    # Checks if string ends with word "world"
+string_variable.startswith("hello")                  # Checks if string starts with word "hello"
+new_string = string_variable.strip()                 # Strips string from white characters
+new_string = string_variable.lower()                 # Changes string letters to lower case
+new_string = string_variable.upper()                 # Changes string letters to upper case
+...
 
 I want you to build Windows Event Log parser. Example file you can find in this lesson folder system_event_log.txt.
 You can generate your own Event Log file using Windows command:

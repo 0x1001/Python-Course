@@ -1,4 +1,4 @@
-Lesson 5 - NFCC PLL settings parser
+Lesson 5 - String - NFCC PLL settings parser
 
 In this lesson we continue with text parsing.
 This time I want you to extract PLL settings for different frequencies from given log file.

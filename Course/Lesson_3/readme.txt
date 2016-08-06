@@ -1,7 +1,17 @@
-Lesson 3 - RSA Algorithm implementation
+Lesson 3 - Integers - RSA Algorithm implementation
 
 RSA Algorithm is quite simple. You can read about it here:
 https://simple.wikipedia.org/wiki/RSA_(algorithm)
+
+Short summary:
+integer_variable = 0               # Creates an integer variable with value 0
+integer_variable = int(0)          # Creates an integer variable with value 0
+new_integer = integer_variable + 1 # Adds one to the integer variable
+new_integer = integer_variable - 1 # Subtracts one from the integer variable
+new_integer = integer_variable * 1 # Multiplies by one the integer variable
+new_integer = integer_variable / 1 # Divides by one the integer variable
+integer_variable += 1              # Increments by 1 the integer variable
+...
 
 I want you to implement two functions: one for encoding rsa and the other for decoding.
 In your folder create rsa.py file. Put all your functions into that file. Use suggested below function names.
