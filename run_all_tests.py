@@ -12,9 +12,17 @@ def run_all_tests():
         if test:
             to_run.append((solution, test))
 
-    pool = Pool()
-    failures = pool.map(run_one_testsuite, to_run)
-    return [failure for failure in failures if failure]
+    pool = Pool(maxtasksperchild=1)
+    failed_solutions = []
+    for solution, test in sorted(to_run):
+        print("----------------------------------------------------------------------")
+        print("----------------------------------------------------------------------")
+        print("----------------------------------------------------------------------")
+        print("\n\t{1}\n\tRunning tests for {0}\n".format(solution, test))
+        if not pool.apply(run_one_testsuite_in_isolated_environment, args=(solution, test)):
+            failed_solutions.append(solution)
+
+    return failed_solutions
 
 
 def print_failures(failures):
@@ -25,15 +33,10 @@ def print_failures(failures):
         print("Some test cases failed in {0}".format(solution))
 
 
-def run_one_testsuite(to_run):
-    solution, test = to_run
+def run_one_testsuite_in_isolated_environment(solution, test):
     sys.path.append(solution)
     results = unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().discover(test))
-
-    if results.wasSuccessful():
-        return None
-    else:
-        return solution
+    return results.wasSuccessful()
 
 
 def find_solutions():
