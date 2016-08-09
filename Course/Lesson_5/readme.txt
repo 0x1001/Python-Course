@@ -1,5 +1,25 @@
-Lesson 5 - String - NFCC PLL settings parser
+Lesson 5 - String and regular expressions - NFCC PLL settings parser
+------------------------------------------------------------------------------------------------------------------------
 
+What is regular expression?
+https://en.wikipedia.org/wiki/Regular_expression
+
+Python supports regular expressions via re module.
+https://docs.python.org/3/library/re.html
+https://docs.python.org/3/howto/regex.html
+
+Usage of re module in python is very simple, however building proper regular expression might be very hard.
+Here are few online regular expression editors that can help you:
+https://regex101.com/
+http://regexr.com/
+
+Short summary:
+import re                                   # imports re module
+match = re.search('(?<=abc)def', 'abcdef')  # Searches string 'abcdef' using regex '(?<=abc)def'. Returns match object (https://docs.python.org/3/library/re.html#match-objects)
+found = match.group(0)                      # Returns whole matched string
+found = re.findall('(?<=abc)def', 'abcdef') # Searches string 'abcdef' using regex '(?<=abc)def'. Returns list of strings that were found.
+
+Exercise:
 In this lesson we continue with text parsing.
 This time I want you to extract PLL settings for different frequencies from given log file.
 (You can ignore abbreviations like NFCC or PLL, they are irrelevant)
@@ -16,7 +36,7 @@ Extract from these lines:
 Then print it in a nicer to read format:
 "Index = 0, 12.000MHz, 0x40 0x81 0xe0 0x02 0x40 0x00 0xe1 0x02"
 
-In your folder create file pllsettings.py.
+In your folder create a file pllsettings.py.
 Create two functions:
 1. parser(log_contents)
     This is a parser function that parses log contents and for each PLL setting creates new PLLSetting object.
