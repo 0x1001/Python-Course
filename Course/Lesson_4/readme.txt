@@ -73,3 +73,5 @@ if __name__ == "__main__":
 
 You can run your eventlog.py from pyCharm directly or via command line: python eventlog.py.
 In console output you will see tests results.
+
+File Course/Lesson_4/eventlog_template.py is a solution template that you can use as starting point. Copy it to your solution folder and rename it to eventlog.py.

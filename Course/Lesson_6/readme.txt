@@ -54,6 +54,8 @@ And at the end:
 if __name__ == "__main__":
     unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().discover("../../../Course/Lesson_6"))
 
+File Course/Lesson_6/integer_sort_template.py is a solution template that you can use as starting point. Copy it to your solution folder and rename it to integer_sort.py.
+
 ------------------------------------------------------------------------------------------------------------------------
 Hint 1:
 In python you can swap two variables by doing:

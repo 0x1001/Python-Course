@@ -72,3 +72,5 @@ import unittest
 And at the end:
 if __name__ == "__main__":
     unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().discover("../../../Course/Lesson_9"))
+
+File Course/Lesson_9/set_and_tuple_template.py is a solution template that you can use as starting point. Copy it to your solution folder and rename it to set_and_tuple.py.

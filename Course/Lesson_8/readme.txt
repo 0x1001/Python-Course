@@ -52,3 +52,5 @@ import unittest
 And at the end:
 if __name__ == "__main__":
     unittest.TextTestRunner(verbosity=2).run(unittest.TestLoader().discover("../../../Course/Lesson_8"))
+
+File Course/Lesson_8/dictionaries_template.py is a solution template that you can use as starting point. Copy it to your solution folder and rename it to dictionaries.py.
