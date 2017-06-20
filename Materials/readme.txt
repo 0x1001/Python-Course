@@ -10,6 +10,7 @@ I recommend following steps for installation:
 - Activate it:
 	call .venv/Scripts/activate.bat
 - Install Jupyter
-	pip install jupyter
+	pip install -r requirements_for_jupyter.txt
+	(or pip install jupyter)
 - To start Jupyter use:
 	jupyter notebook
